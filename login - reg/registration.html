@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>Bootstrap 5  Login Page Design</title>
+  </head>
+  <body>
+    <button id="toggleButton">Toggle Form</button> <!-- Add a button to toggle the form -->
+    <section class="form-01-main">
+      <div class="form-cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-sub-main">
+              <div class="_main_head_as">
+                <a href="#">
+                  <img src="assets/images/vector.png">
+                </a>
+              </div>
+              <div class="form-group">
+                <input id="fname" name="fname" class="form-control _ge_de_ol" type="text" placeholder="Enter First Name" required="" aria-required="true">
+            </div>
+
+            <div class="form-group">                                              
+              <input id="lname" type="text" class="form-control" name="lname" placeholder="Enter Last Name" required="required">
+            </div>
+            <div class="form-group">
+                <input id="mno" name="mno" class="form-control _ge_de_ol" type="text" placeholder="Enter Mobile No" required="" aria-required="true">
+            </div>
+
+            <div class="form-group">                                              
+              <input id="add" type="text" class="form-control" name="add" placeholder="Enter Address" required="required">
+            </div>
+              <div class="form-group">
+                  <input id="email" name="email" class="form-control _ge_de_ol" type="text" placeholder="Enter Email" required="" aria-required="true">
+              </div>
+
+              <div class="form-group">                                              
+                <input id="password" type="password" class="form-control" name="password" placeholder="********" required="required">
+                <i toggle="#password" class="fa fa-fw fa-eye toggle-password field-icon"></i>
+              </div>
+
+              <div class="form-group">
+                <div class="check_box_main">
+                  <a href="#" class="pas-text">Already User...?</a>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="btn_uy">
+                  <a href="#"><span>Sign Up</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <script>
+      // JavaScript to toggle the visibility of the form
+      document.getElementById('toggleButton').addEventListener('click', function() {
+        var formSubMain = document.querySelector('.form-sub-main');
+        if (formSubMain.style.display === 'none' || formSubMain.style.display === '') {
+          formSubMain.style.display = 'block';
+        } else {
+          formSubMain.style.display = 'none';
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+/* CSS styles for logout form */
+
+/* Styles for header */
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 30px;
+}
+
+.header .logo {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Styles for logout form container */
+.logoutbox {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styles for logout form elements */
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000;
+}
